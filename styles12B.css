@@ -1,0 +1,116 @@
+center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  }
+
+  body {
+    background-image: url("Kauneushoitola_etusivu.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+  ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+
+  }
+
+  div {
+      padding: 20px;
+      text-align: center;
+      height: 100%;
+      width: 700px;
+      color: #ffffff;
+      border: 10px
+  }
+  
+  div.container-fluid bg-3 text-center {
+      width: 100% !important;
+  }
+  
+  div.column {
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+  }
+
+  div.row {
+      font-weight: 100;
+      background-color: #ffffff;
+      padding: 0px;
+      color: #0d0c0c9a;
+      width: 700px;
+      margin: auto;
+  }
+  
+  img {
+      padding: 0;
+      width: 145px;
+  }
+
+  img.lehti_logo {
+      padding: 0 !important;
+  }
+  h1 {
+    text-align: center;
+      color: #0d0c0c9a;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  p {
+    color: #0d0c0c9a;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  h3 {
+      text-align: center;
+      color: #0d0c0c9a;
+      padding: 5px;
+  }  
+
+  h6 {
+      text-align: center;
+      color: #0d0c0c9a;
+      padding: 20px;
+  }    
+  h4 {
+    text-align: center;
+    color: #0d0c0c9a;
+    padding: 20px;
+}  
+     
+h5 {
+  text-align: center;
+    color: #8686869a;
+    padding: 20px;
+    text-align: initial; 
+}
+  li {
+      display: inline;
+      padding: 30px;
+      color: #ffffff;
+  }
+
+  footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      color: #0d0c0c9a;
+      display: flex;
+      justify-content: center;
+    }
+    
+    div.Tausta {
+      background-color: #ffffff;
+      width: fit-content;  
+      padding: 10px;
+      margin: auto;
+    }
